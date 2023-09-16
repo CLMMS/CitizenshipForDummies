@@ -1,0 +1,21 @@
+Using Parallax:
+
+Everything is done with <ParralaxLayer>’s
+
+Parameters are;
+
+	Offset: where the next page start
+
+	Speed: How fast you scroll through the page
+
+	Style: for background images 
+
+	Factor: Allows an image to span multiple pages
+	
+Sticky: Keeps an image in the same place while the user scrolls
+
+useRef: Allows us to click through pages instead of just scrolling
+
+	“cont ref = userRef()” above the return function
+    
+    “onClick={()=>ref.current.scrollTo(3)}” tells us what page we want to click to
